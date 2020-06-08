@@ -1,4 +1,3 @@
-
 import { ElementRef } from '@angular/core';
 
 declare var M;

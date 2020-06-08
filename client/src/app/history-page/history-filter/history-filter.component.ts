@@ -17,6 +17,7 @@ import { MaterialService } from 'src/app/shared/classes/material.service';
   styleUrls: ['./history-filter.component.scss'],
 })
 export class HistoryFilterComponent implements OnDestroy, AfterViewInit {
+  // tslint:disable-next-line:no-output-on-prefix
   @Output() onFilter = new EventEmitter<Filter>();
   @ViewChild('start') startRef: ElementRef;
   @ViewChild('end') endRef: ElementRef;

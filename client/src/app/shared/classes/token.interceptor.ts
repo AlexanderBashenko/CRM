@@ -4,13 +4,11 @@ import { Injectable } from '@angular/core';
 import { AuthService } from '../services/auth.service';
 import {
   HttpInterceptor,
-  HttpErrorResponse,
   HttpRequest,
   HttpHandler,
   HttpEvent,
 } from '@angular/common/http';
-import { catchError } from 'rxjs/operators';
-import { error } from '@angular/compiler/src/util';
+
 
 @Injectable()
 export class TokenInterceptor implements HttpInterceptor {

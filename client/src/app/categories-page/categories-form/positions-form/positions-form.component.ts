@@ -23,6 +23,7 @@ import {
 export class PositionsFormComponent
   implements OnInit, AfterViewInit, OnDestroy {
 
+  // tslint:disable-next-line:no-input-rename
   @Input('categoryId') categoryId: string;
   @ViewChild('modal') modalRef: ElementRef;
 

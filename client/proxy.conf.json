@@ -1,12 +1,12 @@
 {
   "/api/*": {
-    "target": "http://localhost:5000",
+    "target": "https://mysterious-taiga-36100.herokuapp.com",
     "secure": false,
     "logLevel": "debug",
     "changeOrigin": true
   },
   "/uploads/*": {
-    "target": "http://localhost:5000",
+    "target": "https://mysterious-taiga-36100.herokuapp.com",
     "secure": false,
     "logLevel": "debug",
     "changeOrigin": true
